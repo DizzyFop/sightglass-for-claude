@@ -144,6 +144,19 @@
 	--cc-edge: 4px;
 }
 
+/* Extra padding inside the box so the lines and "now" ticks clear the typed text. The worst
+   case is the bottom on hover: two 4px lanes, the 1px gap and a 2px tick. Beats claude.ai's
+   py-2. */
+[data-cds="ChatComposer"] > :has(> .cc-edges) {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+/* Room above the box for the labels, so they never cover the end of the last message */
+[data-cds="ChatComposer"]:has(.cc-edgeLabels) {
+	padding-top: 28px;
+}
+
 .cc-edge {
 	position: absolute;
 	left: 0;
@@ -212,12 +225,12 @@
 
 .cc-edge--top .cc-edge__marker {
 	top: 0;
-	height: calc(var(--cc-edge) + 4px);
+	height: calc(var(--cc-edge) + 2px);
 }
 
 .cc-edge--bottom .cc-edge__marker {
 	bottom: 0;
-	height: calc(100% + 4px);
+	height: calc(100% + 2px);
 }
 
 /* Labels above the box: session on the left, weekly on the right */

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Sightglass for Claude",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "browser_specific_settings": {
     "gecko": {
       "id": "{159468f6-fd52-48e0-a790-5fc68b7a1cdd}",
