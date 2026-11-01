@@ -7,8 +7,10 @@ Text to paste into the developer dashboard. The listing title and the short summ
 Upload the same zip as Firefox:
 
 ```
-git archive --format=zip -o claude-counter-<version>.zip HEAD manifest.json icons src
+git -c core.autocrlf=false archive --format=zip -o sightglass-<version>.zip HEAD manifest.json icons src
 ```
+
+Keep `core.autocrlf=false`. Without it, Windows checkouts write CRLF line endings into the zip, and `src/vendor/o200k_base.js` no longer matches gpt-tokenizer 2.8.1 on npm byte for byte, which Mozilla's reviewers check.
 
 ## Store listing tab
 
