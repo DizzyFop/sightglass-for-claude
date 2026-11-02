@@ -19,6 +19,10 @@ Install [Sightglass for Claude from Firefox Add-ons](https://addons.mozilla.org/
 
 **Chrome / Edge / Chromium**
 
+Install [Sightglass for Claude from the Chrome Web Store](https://chromewebstore.google.com/detail/aahgnabjibfnlhacngphicbpjhjaiieh).
+
+To load it from source instead:
+
 1. Download or clone this repository
 2. Go to `chrome://extensions` and turn on **Developer mode**
 3. Click **Load unpacked** and select the repository folder
