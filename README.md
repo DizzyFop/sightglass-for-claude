@@ -15,7 +15,7 @@ A minimal browser extension that shows token count, cache timer, and usage bars 
 
 **Firefox**
 
-Install [Sightglass for Claude from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/claude-counter-dizzy/).
+Install [Sightglass for Claude from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/sightglass-for-claude/).
 
 **Chrome / Edge / Chromium**
 

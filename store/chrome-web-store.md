@@ -30,7 +30,7 @@ Click the toolbar button to keep the usage text showing, or to switch back to th
 It runs in your claude.ai tab and only talks to claude.ai, using the session you're signed in with.
 
 Sightglass for Claude is open source under the MIT license and isn't affiliated with Anthropic. Based on claude-counter by she-llac.
-https://github.com/DizzyFop/claude-counter
+https://github.com/DizzyFop/sightglass-for-claude
 ```
 
 **Category:** Productivity > Tools
@@ -43,7 +43,7 @@ https://github.com/DizzyFop/claude-counter
 
 **Small promo tile (optional):** `store/promo-small-440x280.png`. Listings without one are shown after listings with one.
 
-**Homepage URL:** https://github.com/DizzyFop/claude-counter
+**Homepage URL:** https://github.com/DizzyFop/sightglass-for-claude
 
 ## Privacy practices tab
 
@@ -69,7 +69,7 @@ The content script runs only on claude.ai. It reads the open conversation and th
 
 **Data usage:** check Website content and Personal communications. The extension reads the conversation text on claude.ai to count tokens. It never leaves the browser, but Google counts data handled on the device too. Then tick all three certifications (not sold, not used for unrelated purposes, not used for credit decisions).
 
-**Privacy policy URL:** https://github.com/DizzyFop/claude-counter/blob/main/PRIVACY.md
+**Privacy policy URL:** https://github.com/DizzyFop/sightglass-for-claude/blob/main/PRIVACY.md
 
 ## Distribution tab
 
