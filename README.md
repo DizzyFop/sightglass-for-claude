@@ -1,8 +1,8 @@
 # Sightglass for Claude
 
-A minimal browser extension that shows token count, cache timer, and usage bars on claude.ai.
+A minimal browser extension that shows token count, cache timer, and usage limits on claude.ai.
 
-![Sightglass for Claude screenshot](./screenshot.png)
+![Sightglass for Claude screenshot](./store/screenshot-1280x800.png)
 
 ## Features
 
@@ -39,6 +39,7 @@ Install [Sightglass for Claude from Firefox Add-ons](https://addons.mozilla.org/
 
 ## Credits
 
+- Based on [claude-counter](https://github.com/she-llac/claude-counter) by she-llac
 - Token counting via [gpt-tokenizer](https://github.com/niieani/gpt-tokenizer) (MIT)
 - Inspired by [Claude Usage Tracker](https://github.com/lugia19/Claude-Usage-Extension) by lugia19
 
